@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="quickLinks flex flex-col gap-[20px] ">
                     <span className="text-[20px] text-crawhite" >Quick Link</span>
                     <ul className="">
-                        {['Home', 'Products', 'About', 'Features', 'Contact'].map(links => (
+                            {["Products", "Features", "About", "Contact"].map(links => (
                             <li className="text-[#F2F2F2] my-1 hover:text-crabluelight pointer" ><a href="http://" target="_blank" rel="noopener noreferrer">
                                 {links}
                             </a></li>

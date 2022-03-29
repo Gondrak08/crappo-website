@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 <div className="flex justify-between  gap-[35px]">
                     <ul className="text-white  md:flex hidden list-none flex-row justify-between items-center flex-initial text-[18px]">
-                        {["Home", "Serviços", "SobreNós", "Contato"].map((item, index) => (
+                        {["Products", "Features", "About", "Contact"].map((item, index) => (
                             <NavLiks key={item + index} title={item} props="hover:text-crabluelight" />
                         ))}
                         
