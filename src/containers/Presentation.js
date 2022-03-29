@@ -8,12 +8,12 @@ const Presentation = () => {
     return (
         <div className="presentation-container py-8  flex items-center justify-center">
             <div className="container flex flex-col gap-5">
-                <div className="numbers flex justify-evenly items-center">
-                    <img src={Logo30b} alt="" />
-                    <img src={Logo10M} alt="" />
-                    <img src={Logo195} alt="" />
+                <div className="numbers flex flex-wrap  justify-evenly items-center">
+                    <img src={Logo30b} className="w-[30%] lg:w-[fit-content] " alt="" />
+                    <img src={Logo10M} className="w-[30%] lg:w-[fit-content]" alt="" />
+                    <img src={Logo195} className="w-[30%] lg:w-[fit-content] " alt="" />
                 </div>
-                <div className="grid grid-cols-2 items-center">
+                <div className="grid grid-cols-auto px-4 md:px-0  md:grid-cols-2 items-center">
                     <div className="image">
                         <img src={PresentationBg} alt="" />
                     </div>

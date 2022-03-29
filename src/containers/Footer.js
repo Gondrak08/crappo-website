@@ -8,8 +8,8 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'reac
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col justify-center py-8 gap-20 items-center">
-            <div className="container grid grid-cols-4">
+        <footer className="flex flex-col justify-center py-8 px-5 lg:px-0 gap-20 items-center">
+            <div className="container grid lg:grid-cols-4 gap-5 md:gap-0">
                 <div className="image">
                     <a href="#" className="pointer hover:opacity-[0.7] ">
                         <img src={Logo} alt="" />
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="container flex justify-between items-center ">
+            <div className="container flex flex-col md:flex-row gap-5 md:gap-0  justify-between items-center ">
                 <span className="tracking-[0.01em] text-white">
                     ©2021 CRAPPO. All rights reserved
                 </span>

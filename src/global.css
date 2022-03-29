@@ -104,7 +104,7 @@ background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
 .mining-component input{
   background: none;
   border-bottom: 1px solid white;
-  width: 374px;
+  /* width: 374px; */
   padding: .2em;
 }
 .mining-component input::placeholder{
