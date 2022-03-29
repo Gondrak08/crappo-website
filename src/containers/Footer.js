@@ -56,7 +56,8 @@ const Footer = () => {
 
             <div className="container flex flex-col md:flex-row gap-5 md:gap-0  justify-between items-center ">
                 <span className="tracking-[0.01em] text-white">
-                    ©2021 CRAPPO. All rights reserved
+                    ©2021 CRAPPO. All rights reserved <br />
+                    made by @vitorAlecrim
                 </span>
                 <div className=" flex gap-5 share-links">
                     <a href="">
