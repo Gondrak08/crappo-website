@@ -8,7 +8,7 @@ const StartMining = () => {
                 </div>
                 <div className="inputbox flex items-center   justify-evenly  gap-10">
                     <input className="text-crawhite"  placeholder="Enter your email" type="text" />
-                    <button className=" bg-white py-[16px] px-[32px] rounded-full text-crawdark text-[18px] font-[500]" >Subscribe</button>
+                    <button className=" bg-white hover:bg-cragreyneutral py-[16px] px-[32px] rounded-full text-crawdark text-[18px] font-[500]" >Subscribe</button>
                 </div>
             </div>
         </section>

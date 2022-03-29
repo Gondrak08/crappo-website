@@ -29,7 +29,7 @@ const cards = [
 
 const TraderDisplay = () => {
     return (
-        <div className="trader-container relative h-[1490px] flex flex-col items-center  ">
+        <div className="trader-container relative h-[1490px] mt-[-50px] flex flex-col items-center  ">
             
             <div className="container relative top-[10em]  flex flex-col items-center justify-center">
                 <div className="texts my-10  flex flex-col justify-center gap-3 w-[fit-content] ">
@@ -47,7 +47,7 @@ const TraderDisplay = () => {
                             <option value="">TH/s</option>
                         </select>
 
-                        <button className="bg-crabluedark py-[16px] px-[32px] rounded-full text-crawhite text-[18px] font-[500]" >Calculate</button>
+                        <button className="bg-crabluedark hover:bg-crablue py-[16px] px-[32px] rounded-full text-crawhite text-[18px] font-[500]" >Calculate</button>
                     </div>
                     <div className="texts flex mt-7 flex-col gap-1 ">
                         <span className="text-crabluedark tracking-[.04em] uppercase font-[500] text-[16px]" >ESTIMATED 24 HOUR REVENUE:</span>
@@ -75,7 +75,7 @@ const TraderDisplay = () => {
                                     </div>
                                     <h4 className="text-[32px] flex items-center gap-3 text-cradrak  font-[700] text-center" >{item.name} <span id="sig" className="text-[18px] font-[500] text-cragreyneutral uppercase">{item.sig}</span> </h4>
                                     <span className="text-center tracking-[.01em] text-cragreydark font-[400] text-[16px]">{item.text}</span>
-                                    <button className="button flex items-center justify-evenly gap-3 h-auto w-auto">
+                                    <button className="button  flex items-center justify-evenly gap-3 h-auto w-auto">
                                         <span className="hidden text-[18px] font-[500]">Start mining</span>
                                         <img src={ArrowIcon} className=" border-[1px] border-cragreylight rounded-full" alt="" />
                                     </button>

@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="w-full flex justify-center items-center ">
             <div className="container pt-5 px-2 flex justify-between ">
                 <div className="flex justify-center items-center">
-                    <a href="#">
+                    <a href="#" className="pointer hover:opacity-[0.7]">
                         <img src={Logo} alt="" />
                     </a>
                 </div>
@@ -30,11 +30,11 @@ const Navbar = () => {
                     </ul>
                     <div className="flex gap-[20px]  md:flex hidden items-center">
                         <a href="#">
-                            <span className="text-white">Login</span>
+                            <span className="text-white hover:text-crabluelight">Login</span>
                         </a>
                         <span style={{ borderLeft:' 1px solid white',
                         height: '2em'}} />
-                        <button className="bg-crablue px-2 text-white py-[14px] px-[22px] rounded-full" >Registre-se</button>
+                        <button className="bg-crabluedark hover:bg-crablue px-2 text-white py-[14px] px-[22px] rounded-full" >Sign up</button>
                     </div>
 
                 </div>

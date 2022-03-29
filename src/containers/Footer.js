@@ -11,13 +11,15 @@ const Footer = () => {
         <footer className="flex flex-col justify-center py-8 gap-20 items-center">
             <div className="container grid grid-cols-4">
                 <div className="image">
-                    <img src={Logo} alt="" />
+                    <a href="#" className="pointer hover:opacity-[0.7] ">
+                        <img src={Logo} alt="" />
+                    </a>
                 </div>
                 <div className="quickLinks flex flex-col gap-[20px] ">
                     <span className="text-[20px] text-crawhite" >Quick Link</span>
                     <ul className="">
                         {['Home', 'Products', 'About', 'Features', 'Contact'].map(links => (
-                            <li className="text-[#F2F2F2] my-1" ><a href="http://" target="_blank" rel="noopener noreferrer">
+                            <li className="text-[#F2F2F2] my-1 hover:text-crabluelight pointer" ><a href="http://" target="_blank" rel="noopener noreferrer">
                                 {links}
                             </a></li>
                         ))}
@@ -27,7 +29,7 @@ const Footer = () => {
                     <span className="text-[20px] text-crawhite" >Resources</span>
                     <ul className="">
                         {['Download Whitepapper', 'Smart Token', 'Blockchain Explorer', 'Crypto Api', 'Interest'].map(links => (
-                            <li className="text-[#F2F2F2] my-1" ><a href="http://" target="_blank" rel="noopener noreferrer">
+                            <li className="text-[#F2F2F2] my-1 hover:text-crabluelight pointer" ><a href="http://" target="_blank" rel="noopener noreferrer">
                                 {links}
                             </a></li>
                         ))}

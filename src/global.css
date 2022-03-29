@@ -74,7 +74,9 @@ background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
   -webkit-transition: max-width 0.5s;
   transition: max-width 0.5s;
 }
-
+.crypto-container .card .button:hover{
+  background:#758EF5;
+}
 .crypto-container .card .button img{
   max-width: 3em;
   width: 100%;
