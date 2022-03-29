@@ -61,7 +61,7 @@ const Navbar = () => {
                                     <AiOutlineClose onClick={() => { setIsMenuOpen(false) }} />
                                 </li>
                                 {["Home", "Serviços", "SobreNós", "Contato"].map((item, index) => (
-                                    <NavLiks key={item + index} title={item} props="my-2 text-lg hover:text-[#66ff66]" />
+                                    <NavLiks key={item + index} title={item} props="my-2 text-lg hover:text-crabluelight" />
                                 ))}
                                 </ul>
                                 <div className="flex md:hidden gap-[20px]  md:flex hidden items-center">

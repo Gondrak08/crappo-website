@@ -69,7 +69,7 @@ const TraderDisplay = () => {
                     <div className="cards grid w-full grid-cols-auto md:grid-cols-3 gap-5">
                         {
                             cards.map((item, index) => (
-                                <div className="card flex flex-col  items-center justify-evenly gap-5 py-4 px-2  rounded-xl  md:h-[400px] bg-[#FFFFFF]  " key={index}>
+                                <div className="card  shadow-xl flex flex-col  items-center justify-evenly gap-5 py-4 px-2  rounded-xl  md:h-[400px] bg-[#FFFFFF]  " key={index}>
                                     <div className="image">
                                         <img src={item.logo} alt="" />
                                     </div>
